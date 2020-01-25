@@ -1,0 +1,62 @@
+/*Normalize and common*/
+* {
+    margin: 0;
+    padding: 0; 
+}
+  
+  .container {
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.button {
+    border: none;
+}
+
+.button:hover {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000; }
+
+ul {
+    list-style-type: none; 
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "Romul";  
+    src: url("../font/romul.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2,
+h3,
+.menu__item__link {
+    font-family: "Romul", Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+/*Flex-box*/
+.header,
+.top,
+.top__item,
+.menu_container,
+.menu,
+.menu__item,
+.breadscrumbs,
+.main,
+.main__description,
+.main__content,
+.main__article,
+.main__text,
+.footer {
+    display: flex;
+}
